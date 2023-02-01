@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./img/tomasz-dzioch-Q9Yl2eUNGl8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+ 
+ .dropdown{
+     display:flex;
+     flex-direction: row;
+     padding: 10px;
+     font-size: 20px;
+     cursor: pointer;
+     margin-left: 75%;
+ }
+ 
+ .dropdown p{
+     padding-top: 10px;
+     padding-left: 5px;
+     font-size: 30px;
+     
+ }
+ 
+ .dropdown1{
+     display: none;
+     position: absolute;
+     background-color: whitesmoke;
+      margin-top: 50px;
+      z-index: 1;
+   
+ } 
+ 
+ .dropdown1 a{
+     color: black;
+     padding: 10px 20px;
+     text-decoration: none;
+     display: block;
+    
+ }
+ 
+ .dropdown1 a:hover {
+     background-color: rgba(216, 137, 19);
+ }
+ 
+ .dropdown:hover .dropdown1 {
+   display: block;
+ }
+
+
+
+.pertama{
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+     justify-content: space-evenly;
+    border: 1px solid whites;
+    border-radius: 10px;
+     width: 400px;
+    height: 300px; 
+    margin-top: 100px;
+    background-color: rgba(223, 148, 36, 0.5);
+    /* color: white; */
+    /* justify-content: center; */
+}
+
+
+
+.container1{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+table tr,td{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.pertama h1{
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}

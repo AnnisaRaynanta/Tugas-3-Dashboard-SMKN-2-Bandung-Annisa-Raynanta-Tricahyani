@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="registeruser.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+    <div class="container1">
+      <div class="text">
+        <h1>Register</h1>
+      </div>
+      <form action="pageuser.html">
+      <div class="register">
+        <label for="">Nama Panjang :</label>
+        <input type="text" name="name" />
+        <label for="">Email :</label>
+        <input type="email" name="email" />
+        <label for="">Password :</label>
+        <input type="password" name="password" />
+        <label for="">No.Telp :</label>
+        <input type="text" name="telp" />
+       
+      </div>
+
+      <div class="button">
+        <input class="kotak" type="submit" value="Submit">
+       <p>have an account?
+        <a href="loginuser.html">Login</a></p>
+    
+
+    </div>
+      </form>
+    </div>
+      </div>
+    <!-- <script>
+      const formRegister = document.querySelector(".register");
+      const inputElement = document.querySelectorAll(".register > input");
+      let formData = {};
+
+      const handleOnRegister = (e) => {
+        e.preventDefault();
+        
+        localStorage.setItem(
+          "userData",
+          JSON.stringify(
+            JSON.parse(localStorage.getItem("userData"))
+              ? JSON.parse(localStorage.getItem("userData")).concat(formData)
+              : [].concat(formData)
+          )
+        );
+      };
+
+      const handleOnInput = (e) => {
+        const { name, value } = e.target;
+        formData = {
+            ...formData,
+          [name]: value,
+        };
+      };
+
+      inputElement.forEach((item) => {
+        item.addEventListener("input", handleOnInput);
+      });
+      formRegister.addEventListener("submit", handleOnRegister);
+    </script> -->
+  </body>
+</html>

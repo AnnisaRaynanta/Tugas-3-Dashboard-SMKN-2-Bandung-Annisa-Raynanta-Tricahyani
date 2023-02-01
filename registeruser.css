@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./img/pemandangan.jpg");
+    background-size: cover;
+    
+    
+}
+
+/* .container{
+   
+    display: flex;
+    flex-direction: row;
+}
+
+.gambar{
+   position: relative;
+   padding-left: 50px;
+   padding-top: 50px;
+   
+} */
+
+.container1{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.281);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    
+    margin-top: 8%;
+   margin-left: 37%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} 
+
+.register,label{
+    color: whitesmoke;
+}
+.button{
+    display: flex; 
+    flex-direction: column;
+     margin-top: 15px; 
+     gap: 15px;
+ }
+ 
+ .kotak{
+     border: none;
+     border-radius: 18px;
+     height: 28px;
+     background-color: rgba(40, 65, 179, 0.952);
+     
+ }
+ 
+    .button,p,a{
+        margin-left: 5px;
+        color: whitesmoke;
+    }
+
+ .button a{
+    color: rgb(6, 6, 248);
+     text-decoration: none;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ } 
+
+ .button input{
+    color: white;
+ }
+
+
