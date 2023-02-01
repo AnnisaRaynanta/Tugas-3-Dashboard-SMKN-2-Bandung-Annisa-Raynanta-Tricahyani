@@ -10,6 +10,7 @@ Selasa-10-Januari
 ![image](https://user-images.githubusercontent.com/113426068/215925694-d7db683d-dc0e-44c2-ba3f-659976d6b9f0.png)
 ![image](https://user-images.githubusercontent.com/113426068/215925747-07d6611a-3adc-4ab6-92db-b32c26c2e196.png)
 ![image](https://user-images.githubusercontent.com/113426068/215925898-6db6cb44-84ac-440b-a48c-153d3906eea8.png)
-![image](https://user-images.githubusercontent.com/113426068/215925951-0ab4db1b-88b8-417b-8639-a5da043a20cf.png)
+![image](https://user-images.githubusercontent.com/113426068/215945179-93c9e2c7-453d-40b9-8944-97da51c79c5e.png)
+
 
 
